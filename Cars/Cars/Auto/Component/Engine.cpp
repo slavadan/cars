@@ -18,7 +18,7 @@ double Engine::get_capacity()
 void Engine::change_status()
 {
 	if (_status)
-		status = false;
+		_status = false;
 	else
 		_status = true;
 }

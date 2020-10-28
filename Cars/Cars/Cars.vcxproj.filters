@@ -28,10 +28,28 @@
     <Filter Include="Файлы заголовков\Auto\Component\Engine">
       <UniqueIdentifier>{f3c1afce-624f-4016-b171-3d7cf8bebdac}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\cars">
+      <UniqueIdentifier>{c4d6cb58-08bc-420a-bfdb-f5d0a8eb14a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\engine">
+      <UniqueIdentifier>{5f537fb7-aa10-484c-a1ef-47d81a89a5ef}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Auto\Company\BMW.cpp">
+      <Filter>Исходные файлы\cars</Filter>
+    </ClCompile>
+    <ClCompile Include="Auto\Company\BMW\X5.cpp">
+      <Filter>Исходные файлы\cars</Filter>
+    </ClCompile>
+    <ClCompile Include="Auto\Component\Engine.cpp">
+      <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Auto\Component\Engine\EngineV16.cpp">
+      <Filter>Исходные файлы\engine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -49,6 +67,9 @@
     </ClInclude>
     <ClInclude Include="Auto\Component\Engine.h">
       <Filter>Файлы заголовков\Auto\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Auto\Component\Engine\EngineV16.h">
+      <Filter>Файлы заголовков\Auto\Component\Engine</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
