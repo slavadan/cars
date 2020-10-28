@@ -25,6 +25,9 @@
     <Filter Include="Файлы заголовков\Auto\Company\BMW">
       <UniqueIdentifier>{e6b22779-cd67-4c53-a419-7ddcf037b262}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\Auto\Component\Engine">
+      <UniqueIdentifier>{f3c1afce-624f-4016-b171-3d7cf8bebdac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -43,6 +46,9 @@
     </ClInclude>
     <ClInclude Include="Auto\component.h">
       <Filter>Файлы заголовков\Auto</Filter>
+    </ClInclude>
+    <ClInclude Include="Auto\Component\Engine.h">
+      <Filter>Файлы заголовков\Auto\Component</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

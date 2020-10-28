@@ -146,6 +146,7 @@
     <ClInclude Include="Auto\Company\BMW.h" />
     <ClInclude Include="Auto\Company\BMW\X5.h" />
     <ClInclude Include="Auto\component.h" />
+    <ClInclude Include="Auto\Component\Engine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
