@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Auto">
+      <UniqueIdentifier>{8e87d334-e4a8-44ae-8c94-a4683d2e36a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Auto\Company">
+      <UniqueIdentifier>{f5c3d126-0ea3-48bf-bdb9-0c3b6f3e1200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Auto\Component">
+      <UniqueIdentifier>{6e42681c-d94b-4690-9cc0-eb007ef7941a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Auto\Company\BMW">
+      <UniqueIdentifier>{e6b22779-cd67-4c53-a419-7ddcf037b262}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Auto\auto.h">
+      <Filter>Файлы заголовков\Auto</Filter>
+    </ClInclude>
+    <ClInclude Include="Auto\Company\BMW.h">
+      <Filter>Файлы заголовков\Auto\Company</Filter>
+    </ClInclude>
+    <ClInclude Include="Auto\Company\BMW\X5.h">
+      <Filter>Файлы заголовков\Auto\Company\BMW</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
