@@ -1,10 +1,14 @@
-#include "Auto/Company/BMW/X5.h"
-#include "Auto/Component/Engine/EngineV16.h"
+#include "UI/console.h"
+
+void DisplayMenu(UserInterface* GUI)
+{
+	GUI->MainMenu();
+}
 
 int main()
 {
-	Auto* car = new X5();
-	AutoComponent* engine = new EngineV16();
+	UserInterface* console = new ConsoleUI();
+	
 
 	return 0;
 }

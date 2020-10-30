@@ -34,6 +34,9 @@
     <Filter Include="Исходные файлы\engine">
       <UniqueIdentifier>{5f537fb7-aa10-484c-a1ef-47d81a89a5ef}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\UI">
+      <UniqueIdentifier>{a1c7b572-ae90-4cf1-a3b3-a40f5db94613}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -50,6 +53,12 @@
     </ClCompile>
     <ClCompile Include="Auto\Component\Engine\EngineV16.cpp">
       <Filter>Исходные файлы\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Auto\auto.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\console.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -70,6 +79,12 @@
     </ClInclude>
     <ClInclude Include="Auto\Component\Engine\EngineV16.h">
       <Filter>Файлы заголовков\Auto\Component\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Файлы заголовков\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\console.h">
+      <Filter>Файлы заголовков\UI</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

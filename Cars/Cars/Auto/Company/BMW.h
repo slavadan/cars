@@ -4,8 +4,8 @@
 class BMW : public Auto
 {
 public:
-	BMW(const std::string& model, const std::string& color): 
-		Auto(0, 210, color, model),
+	BMW(const std::string& model, const std::string& color, Engine* engine): 
+		Auto(0, 210, color, model, engine),
 		logo("BMW")
 	{}
 

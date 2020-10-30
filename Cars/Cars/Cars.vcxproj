@@ -139,11 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Auto\auto.cpp" />
     <ClCompile Include="Auto\Company\BMW.cpp" />
     <ClCompile Include="Auto\Company\BMW\X5.cpp" />
     <ClCompile Include="Auto\Component\Engine.cpp" />
     <ClCompile Include="Auto\Component\Engine\EngineV16.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="UI\console.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Auto\auto.h" />
@@ -152,6 +154,8 @@
     <ClInclude Include="Auto\component.h" />
     <ClInclude Include="Auto\Component\Engine.h" />
     <ClInclude Include="Auto\Component\Engine\EngineV16.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="UI\console.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
